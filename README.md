@@ -37,17 +37,19 @@ Dataset
 |   |-- ...
 
 
-## Training Your Model
-- Subset training is used; modify `data/__init__.py` for the entire dataset.
-- Train with:
-  ```bash
-  python train.py --name sdv14_fusingmodel_ycc_hsv_CONTOUR --dataroot ./Dataset/GenImage/stable_diffusion_v_1_4 
-Testing Your Model
-Test with:
-bash
-Copy code
-python eval.py --no_crop --batch_size 1 --eval_mode 
+
+## Train Your Model
+
+This model is trained using a subset of the full training set (randomly selected). If you want to train on the entire dataset, please modify the `get_dataset` function in the `data/__init__.py` file.
+
+### Simple Command:
+```bash
+python train.py --name sdv14_fusingmodel_ycc_hsv_CONTOUR --dataroot ./Dataset/GenImage/stable_diffusion_v_1_4 
+
 Additional Parameters:
---threshold 0.01: Adjust the testing threshold.
---filter CONTOUR: Test images undergo filtering.
-Test results will be saved in the results folder.
+--filter CONTOUR: Training images undergo filtering.
+Model weights will be saved in the checkpoints directory.
+
+
+
+
