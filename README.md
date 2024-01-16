@@ -20,18 +20,18 @@ Download the dataset from [GenImage](https://github.com/GenImage-Dataset/GenImag
 Dataset  
 |-- GenImage  
 |   |-- sdv1.4  
-|   |   |-- train (48000 samples for training, 6000 for validation)  
-|   |   |   |-- 0_real  
+|   |   |-- train   
+|   |   |   |-- 0_real(48000 samples for training, 6000 for validation)  
 |   |   |   |   |-- xxxx.png  
 |   |   |   |   |...  
-|   |   |   |-- 1_fake  
+|   |   |   |-- 1_fake(48000 samples for training, 6000 for validation)  
 |   |   |   |   |-- yyyy.png  
 |   |   |   |   |...  
-|   |   |-- val (6000 samples for testing)  
-|   |   |   |-- 0_real  
+|   |   |-- val  
+|   |   |   |-- 0_real (6000 samples for testing)  
 |   |   |   |   |-- xxxx.png  
 |   |   |   |   |...  
-|   |   |   |-- 1_fake  
+|   |   |   |-- 1_fake (6000 samples for testing)  
 |   |   |   |   |-- yyyy.png  
 |   |   |   |   |...  
 |   |-- Midjourney  
