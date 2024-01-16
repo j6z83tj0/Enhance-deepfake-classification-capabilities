@@ -57,7 +57,7 @@ python eval.py --no_crop --batch_size 1 --eval_mode
 ```
 Additional Parameters:  
 --threshold 0.01: Adjust the testing threshold.  
---filter CONTOUR: Test images undergo filtering.  
+--filter CONTOUR: Test images undergo filtering(None,"CONTOUR","DETAIL","EDGE_ENHANCE","EMBOSS","FIND_EDGES","SMOOTH","SHARPEN","UnsharpMask","ModeFilter","GAUSSIAN_BLUR") .  
 Test results will be saved in the results folder.
 
 
