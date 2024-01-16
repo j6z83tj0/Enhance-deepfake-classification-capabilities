@@ -47,7 +47,7 @@ This model is trained using a subset of the full training set (randomly selected
 python train.py --name sdv14_fusingmodel_ycc_hsv_CONTOUR --dataroot /Dataset/GenImage/stable_diffusion_v_1_4
 ```
 Additional Parameters:  
---filter CONTOUR: Training images undergo filtering.
+--filter CONTOUR: Training images undergo filtering.  
 Model weights will be saved in the checkpoints directory.
 ## Test Your Model
 ### Simple Command:
@@ -56,7 +56,7 @@ python eval.py --no_crop --batch_size 1 --eval_mode
 ```
 Additional Parameters:  
 --threshold 0.01: Adjust the testing threshold.  
---filter CONTOUR: Test images undergo filtering.
+--filter CONTOUR: Test images undergo filtering.  
 Test results will be saved in the results folder.
 
 
