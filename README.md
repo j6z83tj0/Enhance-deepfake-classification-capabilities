@@ -18,13 +18,23 @@ Download the dataset from [GenImage](https://github.com/GenImage-Dataset/GenImag
 ### Dataset Structure:
 Dataset
 |-- GenImage
-| |-- sdv1.4
-| | |-- train (48000 samples for training, 6000 for validation)
-| | | ...
-| | |-- val (6000 samples for testing)
-| | | ...
-| |-- Midjourney
-| |-- ...
+|   |-- sdv1.4
+|   |   |-- train (48000 samples for training, 6000 for validation)
+|   |   |   |-- 0_real
+|   |   |   |   |-- xxxx.png
+|   |   |   |   ...
+|   |   |   |-- 1_fake
+|   |   |   |   |-- yyyy.png
+|   |   |   |   ...
+|   |   |-- val (6000 samples for testing)
+|   |   |   |-- 0_real
+|   |   |   |   |-- xxxx.png
+|   |   |   |   ...
+|   |   |   |-- 1_fake
+|   |   |   |   |-- yyyy.png
+|   |   |   |   ...
+|   |-- Midjourney
+|   |-- ...
 
 
 ## Training Your Model
