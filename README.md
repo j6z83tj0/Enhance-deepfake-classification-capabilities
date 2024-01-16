@@ -50,8 +50,9 @@ Additional Parameters:
 --filter CONTOUR: Training images undergo filtering.
 Model weights will be saved in the checkpoints directory.
 ## Test Your Model
-'''bash
+### Simple Command:
+```bash
 python eval.py --no_crop --batch_size 1 --eval_mode
-'''
+```
 
 
