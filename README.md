@@ -16,6 +16,7 @@ This model enhances judgment generality through three strategies: leveraging two
 Download the dataset from [GenImage](https://github.com/GenImage-Dataset/GenImage).
 
 ### Dataset Structure:
+```
 Dataset  
 |-- GenImage  
 |   |-- sdv1.4  
@@ -35,7 +36,7 @@ Dataset
 |   |   |   |   ...  
 |   |-- Midjourney  
 |   |-- ...  
-
+```
 
 
 ## Train Your Model
