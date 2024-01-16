@@ -44,12 +44,14 @@ This model is trained using a subset of the full training set (randomly selected
 
 ### Simple Command:
 ```bash
-python train.py --name sdv14_fusingmodel_ycc_hsv_CONTOUR --dataroot ./Dataset/GenImage/stable_diffusion_v_1_4
+python train.py --name sdv14_fusingmodel_ycc_hsv_CONTOUR --dataroot /Dataset/GenImage/stable_diffusion_v_1_4
 ```
 Additional Parameters:
 --filter CONTOUR: Training images undergo filtering.
 Model weights will be saved in the checkpoints directory.
-
-
+## Test Your Model
+'''bash
+python eval.py --no_crop --batch_size 1 --eval_mode
+'''
 
 
