@@ -18,7 +18,7 @@ Download the dataset from [GenImage](https://github.com/GenImage-Dataset/GenImag
 ### Dataset Structure:
 Dataset
 |-- GenImage
-|   |-- sdv1.4
+||-- sdv1.4
 |   |   |-- train (48000 samples for training, 6000 for validation)
 |   |   |   |-- 0_real
 |   |   |   |   |-- xxxx.png
