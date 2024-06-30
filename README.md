@@ -37,7 +37,12 @@ Dataset
 |   |-- Midjourney  
 |   |-- |...  
 ```
-
+## Quick start
+### Run on a single image
+This command runs the model on a single image, and outputs the uncalibrated prediction.
+```bash
+python demo.py -f examples/real.png -m checkpoints/sdv14_fusingmodel_ycc_hsv_EDGE_ENHANCE/model_epoch_latest.pth --filter EDGE_ENHANCE
+```
 
 ## Train Your Model
 
